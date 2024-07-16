@@ -2,7 +2,8 @@ import Hero from "@/containers/Hero";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Image from "next/image";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import Grid from "@/components/Grid";
+import Grid from "@/containers/Grid";
+import RecentProjects from "@/containers/RecentProjects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />
+        <RecentProjects />
       </div>
     </main>
   );
