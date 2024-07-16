@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/containers/Grid";
 import RecentProjects from "@/containers/RecentProjects";
+import Clients from "@/containers/Clients";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Clients />
       </div>
     </main>
   );
