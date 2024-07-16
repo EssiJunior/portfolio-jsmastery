@@ -4,6 +4,7 @@ import { ThemeProvider } from "./provider";
 import "@/styles/globals.css";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+import Footer from "@/containers/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -28,6 +29,7 @@ export default function RootLayout({
 
           <FloatingNav navItems={navItems} />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

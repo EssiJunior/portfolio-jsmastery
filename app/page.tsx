@@ -6,6 +6,7 @@ import Grid from "@/containers/Grid";
 import RecentProjects from "@/containers/RecentProjects";
 import Clients from "@/containers/Clients";
 import Experience from "@/containers/Experience";
+import Approach from "@/containers/Approach";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
